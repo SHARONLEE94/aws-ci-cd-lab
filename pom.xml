@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
   
   <groupId>demo</groupId>
-  <artifactId>springboot-ec2-cicd-demo</artifactId>
+  <artifactId>aws-ci-cd-lab</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>springboot-ec2-cicd-demo</name>
+  <name>aws-ci-cd-lab</name>
   <description>GitHub -> CodePipeline -> CodeBuild -> CodeDeploy -> EC2 demo</description>
   
   <properties>
@@ -41,6 +41,7 @@
   </dependencies>
   
   <build>
+    <finalName>aws-ci-cd-lab</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>

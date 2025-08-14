@@ -1,0 +1,14 @@
+# IDE settings
+.idea/
+*.iml
+
+# Maven build output
+target/
+
+# Logs
+*.log
+nohup.out
+
+# OS-specific files
+.DS_Store
+Thumbs.db

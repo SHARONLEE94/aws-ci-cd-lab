@@ -2,8 +2,9 @@
 .idea/
 *.iml
 
-# Maven build output
+# Maven build output (루트와 모든 모듈의 target)
 target/
+*/target/
 
 # Logs
 *.log
